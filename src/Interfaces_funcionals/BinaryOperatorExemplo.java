@@ -7,7 +7,7 @@ import java.util.function.BinaryOperator;
 public class BinaryOperatorExemplo {
     public static void main(String[] args) {
         // Criar uma lista de números inteiros
-        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5,5);
 
         // Usar o BinaryOperator com expressão lambda para somar dois números inteiros
         BinaryOperator<Integer> somar = Integer::sum;
